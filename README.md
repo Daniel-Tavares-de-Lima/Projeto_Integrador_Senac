@@ -1,4 +1,4 @@
-# Salao-Senac---Projeto-Integrador
+# Salao Senac Projeto Integrador
 
 ## Cotextualização
 O Salão de Beleza Escola do SENAC PE, conhecido por sua excelência, enfrentava dificuldades com a crescente demanda devido ao uso de agendamentos por telefone e registros manuais, resultando em perda de informações e conflitos de horários. Para resolver esses problemas e otimizar as operações, a administração decidiu criar um sistema de gerenciamento integrado, visando facilitar os agendamentos, controlar os serviços e melhorar a gestão do salão, reduzindo o trabalho manual e a falta de integração entre sistemas.
