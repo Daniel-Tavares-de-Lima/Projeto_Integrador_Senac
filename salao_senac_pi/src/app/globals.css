@@ -2,15 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "./styles/stylesHome.css";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --corPrimaria: #004B8E;
+  --corSecundaria: #F7931D;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --corPrimeira: #004B8E;
+    --corSecundaria: #F7931D;
   }
 }
 
@@ -25,3 +31,5 @@ body {
     text-wrap: balance;
   }
 }
+
+

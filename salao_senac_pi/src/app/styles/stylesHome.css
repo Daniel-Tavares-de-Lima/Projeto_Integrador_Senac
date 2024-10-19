@@ -1,0 +1,87 @@
+
+  /*------Header-----*/
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--corPrimaria);
+  width: 1920px;
+  height: 68px;
+}
+
+.logo{
+  display: flex;
+  width: 213px;
+  height: 50px;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.logo h2{
+  font-size: 30px;
+}
+
+/*-------*/
+.nav{
+  width: 767px;
+}
+
+.nav nav ul{
+  display: flex;
+}
+
+.nav nav ul li{
+  padding: 40px;
+}
+/*--------*/
+
+.button{
+  width: 191px;
+  height: 33px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+/*----Button-----*/
+.button #entrar{
+  width: 70px;
+  height: 33px;
+  border: 1px solid var(--corSecundaria);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.button #entrar:hover{
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+.button #entrar:not(:hover){
+  transform: scale(1);
+  transition: all 1s;
+}
+
+.button #cadastrar{
+  width: 98px;
+  height: 33px;
+  background-color: var(--corSecundaria);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.button #cadastrar:hover{
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+.button #cadastrar:not(:hover){
+  transform: scale(1);
+  transition: all 1s;
+}
+
+
+
+
+/*----Button-----*/
