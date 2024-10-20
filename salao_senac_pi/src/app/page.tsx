@@ -5,8 +5,8 @@ import Image from "next/image"
 function head(){
     return(
         <header className="header">
-                <div className="logo">
-                    <Image src="/public/imageLogoSenac.png" alt="Logo Senac" width={38} height={38}/>
+                <div className="logo justify-between">
+                    <Image src="/homeImagens/imageLogoSenac.png" alt="Logo Senac" width={42} height={42}/>
                     <h2>Salão Senac</h2>
                 </div>
 
@@ -64,11 +64,19 @@ function inicio(){
                 </div>
 
                 <div className="imagemConteudo">
-                    <Image src="/public/homeImages/main1.png" alt="imagemMain1" width={585} height={705}/>
+                    <Image src="/homeImagens/fundo1.png" alt="imagemMain1" width={785} height={705} className="fundo1 relative"/>
+                    <Image src="/homeImagens/Group 2.png" alt="imagemMain1" width={585} height={705} className="group1 absolute"/>
                 </div>
             </div>
 
-            <div className="servicos"></div>
+            <div className="servicos">
+                <div className="titulo">
+                    <hr />
+                    <h1>Serviços</h1>
+                </div>
+
+                <div className="figuras"></div>
+            </div>
 
             <div className="agendar"></div>
 
