@@ -1,0 +1,55 @@
+
+
+.servicos{
+    width: 1700px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.servicos .titulo{
+    width: 1700px;
+    justify-content: left;
+    height: 150px;
+}
+
+.servicos .titulo hr{
+    width: 212px;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+.servicos .titulo h1{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+.servicos .figuras{
+    width: 1700px;
+    height: 235px;
+}
+
+
+.servicos .figuras .group{
+    width: 318px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+.servicos .figuras .group .span{
+    width: 161px;
+    height: 161px;
+    border-radius: 12px;
+    background-color: #004b8e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.servicos .figuras .group p{
+    font-size: 25px;
+    color: #004b8e;
+    font-weight: bold;
+}

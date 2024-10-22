@@ -1,0 +1,53 @@
+
+
+.agendar{
+    width: 1700px;
+    height: 600px;
+    background-color: var(--corSecundaria);
+    margin-top: 50px;
+}
+
+
+.agendar .imagem{
+    width: 50%;
+}
+
+.agendar .conteudo{
+    width: 50%;
+    margin-bottom: 150px;
+}
+
+.agendar .conteudo .textos{
+    color: #fff;
+    width: 530px;
+    margin-left: 30px;
+}
+.agendar .conteudo .textos h1{
+    font-size: 50px;
+    letter-spacing: 0.01px;
+    font-weight: bold;
+}
+
+.agendar .conteudo .textos p{
+    font-size: 25px;
+    letter-spacing: 0.01px;
+    font-weight: 100;
+}
+
+.agendar .conteudo .textos button{
+    font-size: 36px;
+    letter-spacing: 0.01px;
+    font-weight: 100;
+    padding: 15px 40px;
+    border-radius: 11px;
+    background-color: var(--corPrimaria);
+}
+
+.agendar .conteudo .textos button:hover{
+    background-color: #014480;
+    transition: all 0.5s;
+}
+
+.agendar .conteudo .textos button:not(hover){
+    transition: all 0.5s;
+}
