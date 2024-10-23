@@ -1,0 +1,68 @@
+
+footer{
+    background-color: #1E1E1E;
+    width: 1920px;
+    height: 435px;
+}
+
+footer .container1{
+    width: 1500px;
+    height: 335px;
+    margin-top: 50px;
+}
+
+
+footer .container2{
+    width: 1500px;
+    height: 100px;
+}
+
+/*-------------*Container 1--------------*/
+footer .container1 .sobre{
+    width: 380px;
+    height: 230px;
+}
+
+footer .container1 .sobre .titulo h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+footer .container1 .sobre .texto{
+    margin-top: 10px;
+}
+
+footer .container1 .contato{
+    width: 300px;
+    height: 150px;
+    padding: 20px 0px;
+}
+
+footer .container1 .contato p{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+footer .container1 .contato h1{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+footer .container1 .horario{
+    width: 300px;
+    height: 150px;
+    padding: 20px 0px;
+}
+
+footer .container1 .horario h1{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+footer .container1 .horario p{
+    font-size: 18px;
+    font-weight: 100;
+}
+/*-------------*Container 1--------------*/
+

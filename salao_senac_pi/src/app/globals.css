@@ -7,6 +7,8 @@
 @import "./styles/stylesTelaHome/stylesHome.css";
 @import "./styles/stylesTelaHome/stylesHomeServicos.css";
 @import "./styles/stylesTelaHome/stytlesAgendar.css";
+@import "./styles/stylesTelaHome/stylesFeedback.css";
+@import "./styles/stylesTelaHome/stylesFooter.css";
 
 :root {
   --background: #ffffff;
@@ -26,6 +28,7 @@
   }
 }
 
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -35,6 +38,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 @layer utilities {

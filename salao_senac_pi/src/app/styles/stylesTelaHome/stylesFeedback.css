@@ -1,0 +1,26 @@
+
+.feedback .group{
+    width: 1700px;
+    height: 235px;
+}
+
+
+.feedback .group .spanFeedback{
+    width: 768px;
+    height: 216px;
+    background-color: var(--corPrimaria);
+    padding: 20px;
+    margin: 0 20px 0px 0px;
+}
+
+
+.feedback .group .spanFeedback .titulo{
+    height: 100px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.feedback .group .spanFeedback p{
+    color: #fff;
+    font-weight: 100;
+}
