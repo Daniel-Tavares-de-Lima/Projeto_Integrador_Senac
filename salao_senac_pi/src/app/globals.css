@@ -10,6 +10,10 @@
 @import "./styles/stylesTelaHome/stylesFeedback.css";
 @import "./styles/stylesTelaHome/stylesFooter.css";
 
+
+/*-------SERVIÇOS-------*/
+@import "./styles/stylesTelaServicos/stylesHome.css";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;

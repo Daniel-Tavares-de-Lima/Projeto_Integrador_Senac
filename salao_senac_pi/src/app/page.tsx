@@ -57,9 +57,9 @@ function inicio(){
                     <p className="font-thin" id="desc">As formações em beleza capacitam profissionais a dominar técnicas inovadoras e atender às expectativas de seus clientes.</p>
 
                     <div className="butoes flex items-center justify-between">
-                        <a href="./pages/servicos.js">
+                        <Link href="/servicos.tsx">
                             <button id="servicos">Serviços</button>
-                        </a>
+                        </Link>
 
                         <p>ou</p>
  
@@ -265,4 +265,3 @@ export default function Home() {
       </div>
     );
 }
-  
