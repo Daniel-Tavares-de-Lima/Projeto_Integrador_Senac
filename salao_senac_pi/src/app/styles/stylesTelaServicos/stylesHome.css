@@ -1,60 +1,146 @@
-.container{
-    width: 1920px;
-    /* width: 100%; */
-    background-color: #f5f5f5;
-}
-
-.container .escolhas{
-    background-color: red;
-    width: 800px;
-    height: 30px;
-}
-
-/* .container .servicos{
-    background-color: blue;
-} */
- 
-.carousel-container {
+/* Container principal */
+.containerServico {
+    font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    gap: 15px;
-}
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    color: #333;
+  }
+  
+  
+  /* Main----------- */
+  .main {
+    flex: 1;
+    width: 100vw;
+    padding: 20px;
+    background-color: #f9f9f9;
+    
+  }
+  
+  .container .main .grupo{
+    margin: 60px 80px;
+  }
 
-.arrow {
-    background-color: orange;
+
+  /*----------DIV 1 TITULO-----------------*/
+  .container .main .escolhas{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Contêiner principal do cabeçalho */
+.headerServicoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #f9f8f6; /* Cor de fundo semelhante à da imagem */
+    color: #333; /* Cor padrão do texto */
+    font-family: Arial, sans-serif;
+  }
+  
+  .headerServicoContainer .titulo{
+    display: flex;
+  }
+  
+  /* Botões de navegação */
+  .navegacao-btn {
+    background-color: #ffaa00;
+    color: white;
     border: none;
     border-radius: 50%;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
-}
-
-#service-text {
     font-size: 18px;
-    color: #333;
-    margin: 0;
-}
-
-.dots-container {
+    margin: 10px;
+  }
+  
+  .navegacao-btn:hover {
+    background-color: #e69500; 
+  }
+  
+  /* Título principal */
+  .header-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 15px;
+    text-align: center;
+  }
+  
+  /* Barra de progresso */
+  .progresso-bar {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
     gap: 10px;
-}
-
-.dot {
-    width: 12px;
-    height: 12px;
+    margin-top: 10px;
+  }
+  
+  /* Pontos na barra de progresso */
+  .progresso-point {
+    width: 8px;
+    height: 8px;
+    background-color: #b0b0b0; /* Cinza para os pontos */
     border-radius: 50%;
-    background-color: gray;
-    cursor: pointer;
-}
+  }
+  
+  .progresso-point.active {
+    background-color: #ffaa00; /* Ponto ativo destacado em laranja */
+  }
+  
+  .container .main .filtros {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 60px;
+    text-align: center;
+  }
 
-.dot.active {
-    background-color: orange;
-}
+  .container .main .filtros #tamanhoCabelo{
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(102, 102, 102);
+    text-align: center;
+  }
+  
+  /**********--------------------*/
+
+  .quadrado{
+    margin-top: 30px;
+    border: 2px solid #bdbdbd;
+    border-radius: 10px;
+  }
+  .listaServicos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .servico {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+  }
+  
+  .servico:hover {
+    background: #f0f8ff;
+  }
+  
+  .nomeServico {
+    flex: 2;
+  }
+  
+  .precoServico {
+    flex: 1;
+    text-align: right;
+    font-weight: bold;
+  }
+  

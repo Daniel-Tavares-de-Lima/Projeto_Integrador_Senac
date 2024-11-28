@@ -6,9 +6,9 @@
   justify-content: space-around;
   align-items: center;
   background-color: var(--corPrimaria);
-  /* width: 1920px; */
   width: 100vw;
   height: 68px;
+  color: #fff;
 }
 
 .logo{
