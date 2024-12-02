@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+          title: ["Alumni Sans", "sans-serif"],
+          subtitle: ["League Spartan", "sans-serif"]
+    },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
