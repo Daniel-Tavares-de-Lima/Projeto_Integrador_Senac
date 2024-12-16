@@ -19,11 +19,11 @@ function head() {
         <nav>
           <ul>
             <li>
-              <Link href="http://localhost:3000">Home</Link>
+              <Link href="#">Home</Link>
             </li>
 
             <li>
-              <Link href="./telaGestao">Agendar</Link>
+              <Link href="#">Agendar</Link>
             </li>
 
             <li>

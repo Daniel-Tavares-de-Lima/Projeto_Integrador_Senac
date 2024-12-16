@@ -3,10 +3,6 @@ import Image from "next/image"
 import React from "react"
 
 
-
-import Servicos from "./pages/telaServicos/servicos"
-
-
 /*--------Head-----*/
 function head(){
     return(
@@ -27,7 +23,7 @@ function head(){
                             </li>
 
                             <li>
-                                <Link href="#">Agendar</Link>
+                                <Link href="./telaGestao">Agendar</Link>
                             </li>
                             
                             <li>
@@ -64,7 +60,7 @@ function inicio(){
                     <p className="font-thin" id="desc">As formações em beleza capacitam profissionais a dominar técnicas inovadoras e atender às expectativas de seus clientes.</p>
 
                     <div className="butoes flex items-center justify-between">
-                        <Link href="./pages/telaServicos/servicos">
+                        <Link href="./telaServicos">
                             <button id="servicos">Serviços</button>
                         </Link>
 
@@ -148,7 +144,9 @@ function inicio(){
 
                         <p>Ao optar por trabalhar com alunos e profissionais altamente qualificados, você está garantindo acesso a talentos que se destacam pela excelência em suas áreas de atuação. </p>
 
-                        <button>Agende aqui</button>
+                        <Link href="./telaGestao">
+                            <button>Agende aqui</button>
+                        </Link>
                     </div>
                 </div>
             </div>

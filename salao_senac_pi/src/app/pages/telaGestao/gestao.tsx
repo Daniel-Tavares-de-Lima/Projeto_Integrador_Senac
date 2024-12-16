@@ -22,7 +22,7 @@ function Head() {
         <nav>
           <ul>
             <li>
-              <Link href="http://localhost:3000">Home</Link>
+              <Link href="#">Home</Link>
             </li>
             <li>
               <Link href="#">Agendar</Link>
