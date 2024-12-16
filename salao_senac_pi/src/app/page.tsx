@@ -1,10 +1,17 @@
 import Link from "next/link"
 import Image from "next/image"
+import React from "react"
+
+
+
+import Servicos from "./pages/telaServicos/servicos"
+
 
 /*--------Head-----*/
 function head(){
     return(
 
+        
         
         <header className="header">
                 <div className="logo justify-between">
@@ -57,9 +64,9 @@ function inicio(){
                     <p className="font-thin" id="desc">As formações em beleza capacitam profissionais a dominar técnicas inovadoras e atender às expectativas de seus clientes.</p>
 
                     <div className="butoes flex items-center justify-between">
-                        <a href="./pages/servicos.js">
+                        <Link href="./pages/telaServicos/servicos">
                             <button id="servicos">Serviços</button>
-                        </a>
+                        </Link>
 
                         <p>ou</p>
  
@@ -174,25 +181,6 @@ function inicio(){
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit necessitatibus amet repellat sunt minima praesentium? Dolores impedit hic praesentium laborum quam neque velit corporis et. Esse minima corporis id alias?</p>
                     </div>
 
-
-                    {/* <div className="spanFeedback">
-                        <div className="titulo">
-                            <h2>Nome e Sobrenome</h2>
-                            <Image src="/homeImagens/estrelas.png" alt="Avaliação" width={200} height={40}></Image>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit necessitatibus amet repellat sunt minima praesentium? Dolores impedit hic praesentium laborum quam neque velit corporis et. Esse minima corporis id alias?</p>
-                    </div>
-
-
-                    <div className="spanFeedback">
-                        <div className="titulo">
-                            <h2>Nome e Sobrenome</h2>
-                            <Image src="/homeImagens/estrelas.png" alt="Avaliação" width={200} height={40}></Image>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit necessitatibus amet repellat sunt minima praesentium? Dolores impedit hic praesentium laborum quam neque velit corporis et. Esse minima corporis id alias?</p>
-                    </div> */}
                 </div>
                     
             </div>
@@ -263,5 +251,7 @@ export default function Home() {
           {footer()}
 
       </div>
+
+      
     );
 }
